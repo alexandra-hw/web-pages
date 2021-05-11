@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&family=Josefin+Sans&family=New+Tegomin&family=Noto+Sans+KR&display=swap');
+
+footer {
+    clear: both;
+    float: left;
+    width: 100%;
+    height: 180px;
+    padding-top: 30px;
+    background-color: rgba(46, 50, 53, 0.45);
+    color: #F6F7EB;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+footer a {
+    color: #e353d1;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #F6F7EB;
+    text-decoration: none;
+}
+
+.contacts-info {
+    float: left;
+    font-size: 20px;
+    width: 100%;
+}
+
+.contacts-info div {
+    width: 40%;
+    margin: 2%;
+}
+
+.email {
+    clear: both;
+    float: left;
+    text-align: center;
+}
+
+.contacts {
+    float: right;
+}
+
+.contacts-info nav {
+    width: auto;
+    position: center;
+    margin: 2%;
+}
+
+.center {
+    font-size: 15px;
+}

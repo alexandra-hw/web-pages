@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&family=Josefin+Sans&family=New+Tegomin&family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    height: auto;
+}
+
+/*font-family: 'Josefin Sans', sans-serif;*/
+/*font-family: 'New Tegomin', serif;*/
+/*font-family: 'Noto Sans KR', sans-serif;*/
+
+.spacer {
+    width: 100%;
+    height: 80px;
+}
+
+.banner {
+    width: 100%;
+    height: 627px;
+    background-image: url("pix/woman1.jpeg");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.banner .text-frame {
+    display: inline-block;
+    margin: 10%;
+    float: left;
+    width: 30%;
+    height: 30%;
+}
+
+.banner .text-frame h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #F6F7EB;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+
+.content {
+    float: left;
+    height: auto;
+    background-color: #c5cbcb66;
+    color: #484848;
+}
+
+.introduction {
+    float: left;
+    font-size: 20px;
+    padding: 100px 10%;
+    width: 100%;
+    height: 300px;
+}
+
+.introduction div {
+    width: 45%;
+    margin: 2%;
+    float: left;
+}
+
+.introduction .intro {
+    text-align: right;
+    font-family: 'Girassol', cursive;
+    color: #ce5b14;
+    letter-spacing: 2px;
+}
+
+.introduction .text {
+    padding-top: 5px;
+    text-align: left;
+    color: #847f7f;
+    /*font-family: 'New Tegomin', serif;*/
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+.text-about-time {
+    clear: both;
+    float: right;
+    height: 100px;
+    width: 50%;
+    padding: 30px;
+    font-family: 'Dancing Script', cursive;
+    color: #ce5b14;
+    text-align: right;
+    font-size: 20px;
+}
